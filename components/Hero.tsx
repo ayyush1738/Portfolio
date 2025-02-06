@@ -3,6 +3,8 @@ import { Spotlight } from './ui/Spotlight';
 import { TextGenerateEffect } from '@/components/ui/TextGenerateEffect';
 import MagicButton from '@/components/MagicButton'
 import { FaLocationArrow } from 'react-icons/fa6';
+import Image from 'next/image';
+import pfp from '@/public/pfp.jpeg'
 
 export default function Hero()
 {
@@ -17,19 +19,18 @@ export default function Hero()
                 {/* Radial gradient for the container to give a faded look */}
               <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-200 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
             </div>
-            <div className='flex justify-center relative my-20 z-10'>
+            <div className='flex justify-center relative my-10 z-10'>
                 <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center'>
-                    <h2 className='upper`case tracking-wide text-xs text-center'>
-                        Dynamic web magic with next.js
-                    </h2>
+
+                    <div className="w-48 h-48 rounded-full overflow-hidden">
+                        <Image src={pfp} width={200} height={200} alt="Profile Picture" />
+                    </div>
+
                     <TextGenerateEffect 
-                        className='text-center text-[40px] md:text-5xl lg:text-6xl'
-                        words='Transforming Concepts Into Seamless Expriences'
+                        className='text-center text-[20px] md:text-2xl lg:text-3xl'
+                        words='Hi, i&apos;m Ayush, a web3 Developer'
                     />
 
-                    <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-                        Hi, i&apos;m Ayush, a web3 Developer
-                    </p>
 
                     <a href="#about">
                         <MagicButton 

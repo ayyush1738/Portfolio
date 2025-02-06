@@ -67,10 +67,19 @@ export const BentoGridItem = ({
   };
 
   const handleCopy = () => {
-    const text = "hsu@jsmastery.pro";
-    navigator.clipboard.writeText(text);
-    setCopied(true);
-  };
+  const text = "singhrathoreayush1738@gmail.com";
+
+  navigator.clipboard
+    .writeText(text)
+    .then(() => {
+      setCopied(true); // Only set copied to true after the text is successfully written to the clipboard.
+    })
+    .catch((err) => {
+      console.error('Failed to copy: ', err);
+      setCopied(false); // Optionally, set to false if clipboard copy fails.
+    });
+};
+
 
   return (
     <div
