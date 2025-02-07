@@ -22,7 +22,7 @@ export default function Hero()
             <div className='flex justify-center relative my-10 z-10'>
                 <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center'>
 
-                    <div className="w-48 h-48 rounded-full overflow-hidden">
+                    <div className="w-48 h-48 mt-10 rounded-full overflow-hidden">
                         <Image src={pfp} width={200} height={200} alt="Profile Picture" />
                     </div>
 
