@@ -70,9 +70,11 @@
   * {
     @apply border-border !scroll-smooth;
   }
+
   body {
     @apply bg-background text-foreground;
   }
+
   button {
     @apply active:outline-none;
   }
@@ -82,4 +84,16 @@
   .heading {
     @apply font-bold text-4xl md:text-5xl text-center;
   }
+}
+
+
+/* Smooth scroll for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Ensure body height allows for scrolling */
+body {
+  min-height: 10vh;
+  overflow-x: hidden;
 }
