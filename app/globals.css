@@ -91,9 +91,3 @@
 html {
   scroll-behavior: smooth;
 }
-
-/* Ensure body height allows for scrolling */
-body {
-  min-height: 10vh;
-  overflow-x: hidden;
-}
