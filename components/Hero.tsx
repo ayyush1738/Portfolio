@@ -9,10 +9,10 @@ import pfp from '@/public/pfp.jpeg'
 export default function Hero()
 {
     return(
-        <div className="pb-20 pt-36 h-screen">
+        <div className="pb-20 pt-36 h-full">
             <div className='z-10'>
                 <Spotlight className="-top-40 -left-10 md:-left-32 md:-top-20 h-[80vh] w-[80vw]" fill="white"/>
-                {/* <Spotlight className="top-40 left-full h-[80vh] w-[50vw]" fill="purple"/> */}
+                <Spotlight className="top-40 left-full h-[80vh] w-[50vw]" fill="purple"/>
                 <Spotlight className="top-80 z-10 left-60 h-[60vh] w-[20vw]" fill="blue"/>
             </div>
             <div className="h-screen w-full dark:bg-rose-950 bg-white  dark:bg-grid-white/[0.05] bg-grid-black/[0.2] absolute top-0 left-0 flex items-center justify-center">
