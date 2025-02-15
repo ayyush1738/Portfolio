@@ -85,3 +85,33 @@
     @apply font-bold text-4xl md:text-5xl text-center;
   }
 }
+
+@keyframes seamlessScrollUp {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(-50%);
+  }
+}
+
+.slide-up {
+  animation: seamlessScrollUp 15s linear infinite;
+  will-change: transform;
+}
+
+@keyframes seamlessScrollDown {
+  from {
+    transform: translateY(-50%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+.slide-down {
+  animation: seamlessScrollDown 15s linear infinite;
+  will-change: transform;
+}
