@@ -85,9 +85,3 @@
     @apply font-bold text-4xl md:text-5xl text-center;
   }
 }
-
-
-/* Smooth scroll for anchor links */
-html {
-  scroll-behavior: smooth;
-}
