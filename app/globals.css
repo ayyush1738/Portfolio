@@ -97,7 +97,7 @@
 }
 
 .slide-up {
-  animation: seamlessScrollUp 15s linear infinite;
+  animation: seamlessScrollUp 25s linear infinite;
   will-change: transform;
 }
 
@@ -112,6 +112,6 @@
 }
 
 .slide-down {
-  animation: seamlessScrollDown 15s linear infinite;
+  animation: seamlessScrollDown 25s linear infinite;
   will-change: transform;
 }
