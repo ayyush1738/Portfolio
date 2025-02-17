@@ -8,8 +8,8 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "About",
-    description: "I am a final year Computer Science students interested in Web3 and Software Engineering, open to collaborations and looking for work opportunites",
+    title: "About Me",
+    description: "Hey there! I'm a passionate developer from India, Exploring Web3 and Software Engineering with curiosity and innovation. I love turning ideas into reality through code, and I'm always on the lookout for exciting collaborations and work opportunities. Whether it's building decentralized solutions or crafting seamless software experiences, I'm all in. Let's connect and create something amazing together! 🚀",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",

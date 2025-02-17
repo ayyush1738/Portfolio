@@ -28,7 +28,7 @@ export default function Hero()
 
                     <TextGenerateEffect 
                         className='text-center text-[20px] md:text-2xl lg:text-3xl'
-                        words='Hi, i&apos;m Ayush, a web3 Developer'
+                        words='Hi, i&apos;m Ayush, a web Developer'
                     />
 
 
