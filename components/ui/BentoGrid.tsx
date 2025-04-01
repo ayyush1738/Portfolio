@@ -1,7 +1,7 @@
 "use client"; // Ensure this is a Client Component
 
 import { useEffect, useState } from "react";
-import { IoCopyOutline } from "react-icons/io5";
+import { IoDownload } from "react-icons/io5";
 import dynamic from "next/dynamic";
 import { cn } from "@/lib/utils";
 
@@ -53,13 +53,15 @@ export const BentoGridItem = ({
   };
 
   const handleCopy = () => {
-    if (typeof window !== "undefined" && navigator.clipboard) {
-      navigator.clipboard
-        .writeText("singhrathoreayush1738@gmail.com")
-        .then(() => setCopied(true))
-        .catch((err) => console.error("Failed to copy: ", err));
-    }
+    const link = document.createElement("a");
+    link.href = "/Ayush_Resume_SDE.pdf"; // Update with the correct path to your PDF
+    link.download = "Ayush_Resume_SDE.pdf"; // Specify the name of the file to download
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
+
+
 
   return (
     <div
@@ -150,8 +152,8 @@ export const BentoGridItem = ({
               )}
 
               <MagicButton
-                title={copied ? "Email is Copied!" : "Copy my email address"}
-                icon={<IoCopyOutline />}
+                title={copied ? "Your Download Has Been started :)" : "Download My Resume"}
+                icon={<IoDownload className="h-5 w-5" />}
                 position="left"
                 handleClick={handleCopy}
                 otherClasses="!bg-[#161A31]"
