@@ -73,7 +73,7 @@ export const projects = [
   {
     id: 1,
     title: "Magic Chain",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    des: "Scalable blockchain-based rewards platform addressing transparency issues in traditional loyalty programs using secure, traceable transactions",
     img: "/p1.png",
     iconLists: ["/re.svg", "/tail.svg", "/git.svg"],
     link: "https://unfold24-seven.vercel.app/",
@@ -81,7 +81,7 @@ export const projects = [
   {
     id: 2,
     title: "Rag-Based-ChatBot",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    des: "A RAG-based web application which uses ollama's large language model to answer your every question related to that document.",
     img: "/p2.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/dock.svg", "/fa.png"],
     link: "https://auro-full-stack-task.vercel.app/",
@@ -89,7 +89,7 @@ export const projects = [
   {
     id: 3,
     title: "CADIUM",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    des: "CADium is a powerful application that enables users to import, view, and interact with 3D models effortlessly.",
     img: "/p3.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fa.png"],
     link: "https://github.com/ayyush1738/CADium",
@@ -97,7 +97,7 @@ export const projects = [
   {
     id: 4,
     title: "Doc-Scanner",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    des: "A document scanning and matching system with text similarity matching using TF-IDF Cosine Similarity, allowing users to upload and scan documents for content similarity.",
     img: "/p4.png",
     iconLists: ["/re.svg", "/tail.svg", "/git.svg", "/fa.png"],
     link: "https://github.com/ayyush1738/Doc-Scanning",
