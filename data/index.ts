@@ -1,3 +1,5 @@
+import { title } from "process";
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -73,6 +75,14 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "Chainvoice",
+    des: "Web3 platform to tokenize your PDF invoices as an enterprise or earn great profits investing in those tokens",
+    img: "/p0.png",
+    iconLists: ["/re.svg", "/ts.svg", "/sol.png", "/tail.svg", "/git.svg"],
+    link: "https://finternet-defi.vercel.app/"
+  },
+  {
+    id: 2,
     title: "Magic Chain",
     des: "Scalable blockchain-based rewards platform addressing transparency issues in traditional loyalty programs using secure, traceable transactions",
     img: "/p1.png",
@@ -80,20 +90,12 @@ export const projects = [
     link: "https://unfold24-seven.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Rag-Based-ChatBot",
     des: "A RAG-based web application which uses ollama's large language model to answer your every question related to that document.",
     img: "/p2.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/dock.svg", "/fa.png"],
     link: "https://auro-full-stack-task.vercel.app/",
-  },
-  {
-    id: 3,
-    title: "CADIUM",
-    des: "CADium is a powerful application that enables users to import, view, and interact with 3D models effortlessly.",
-    img: "/p3.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fa.png"],
-    link: "https://github.com/ayyush1738/CADium",
   },
   {
     id: 4,

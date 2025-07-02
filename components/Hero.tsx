@@ -4,7 +4,7 @@ import { TextGenerateEffect } from '@/components/ui/TextGenerateEffect';
 import MagicButton from '@/components/MagicButton'
 import { FaLocationArrow } from 'react-icons/fa6';
 import Image from 'next/image';
-import pfp from '@/public/pfp.jpeg'
+import pfp from '@/public/pfp2.jpeg'
 
 export default function Hero()
 {
