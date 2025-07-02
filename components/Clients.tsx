@@ -12,7 +12,6 @@ const Clients = () => {
         Kind words from
         <span className="text-purple"> satisfied clients</span>
       </h1>
-
       <div className="flex flex-col items-center max-lg:mt-10">
         <div
           // remove bg-white dark:bg-black dark:bg-grid-white/[0.05], h-[40rem] to 30rem , md:h-[30rem] are for the responsive design
