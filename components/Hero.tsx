@@ -11,12 +11,13 @@ export default function Hero()
     return(
         <div className="pb-20 pt-36 h-screen">
             <div className='z-10'>
-                <Spotlight className="-top-40 -left-10 md:-left-32 md:-top-20 h-[80vh] w-[80vw]" fill="white"/>
+                <Spotlight className="-top-40 -left-80 md:-left-32 md:-top-20 h-[100vh] w-[80vw]" fill="white"/>
                 <Spotlight className="top-40 left-full h-[80vh] w-[50vw]" fill="purple"/>
                 <Spotlight className="top-80 z-10 left-60 h-[60vh] w-[20vw]" fill="blue"/>
+                <Spotlight className="top-96 z-10 left-60 h-[60vh] w-[20vw]" fill="purple"/>
+                <Spotlight className="top-80 left-full h-[80vh] w-[50vw]" fill="white"/>
             </div>
             <div className="h-screen w-full dark:bg-rose-950 bg-white  dark:bg-grid-white/[0.05] bg-grid-black/[0.2] absolute top-0 left-0 flex items-center justify-center">
-                {/* Radial gradient for the container to give a faded look */}
               <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-200 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
             </div>
             <div className='flex justify-center relative my-10 z-10'>

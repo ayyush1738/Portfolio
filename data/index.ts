@@ -83,6 +83,14 @@ export const projects = [
   },
   {
     id: 2,
+    title: "ZkDetect",
+    des: "A zero-knowledge verification dApp leveraging Ethereum (zkSync L2) and Solana, integrating AI-based deepfake detection with blockchain immutability and decentralized governance.",
+    img: "/p5.png",
+    iconLists: ["/re.svg", "/tail.svg", "/git.svg", "/fa.png", "/sol.png"],
+    link: "https://zk-face.vercel.app/",
+  },
+  {
+    id: 3,
     title: "Magic Chain",
     des: "Scalable blockchain-based rewards platform addressing transparency issues in traditional loyalty programs using secure, traceable transactions",
     img: "/p1.png",
@@ -90,21 +98,13 @@ export const projects = [
     link: "https://unfold24-seven.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Rag-Based-ChatBot",
     des: "A RAG-based web application which uses ollama's large language model to answer your every question related to that document.",
     img: "/p2.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/dock.svg", "/fa.png"],
     link: "https://auro-full-stack-task.vercel.app/",
-  },
-  {
-    id: 4,
-    title: "Doc-Scanner",
-    des: "A document scanning and matching system with text similarity matching using TF-IDF Cosine Similarity, allowing users to upload and scan documents for content similarity.",
-    img: "/p4.png",
-    iconLists: ["/re.svg", "/tail.svg", "/git.svg", "/fa.png"],
-    link: "https://github.com/ayyush1738/Doc-Scanning",
-  },
+  }
 ];
 
 export const testimonials = [
