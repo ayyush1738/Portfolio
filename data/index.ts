@@ -79,7 +79,7 @@ export const projects = [
     des: "Web3 platform to tokenize your PDF invoices as an enterprise or earn great profits investing in those tokens",
     img: "/p0.png",
     iconLists: ["/re.svg", "/ts.svg", "/sol.png", "/tail.svg", "/git.svg"],
-    link: "https://finternet-defi.vercel.app/"
+    link: "https://chainvoice-defi.vercel.app/"
   },
   {
     id: 2,
