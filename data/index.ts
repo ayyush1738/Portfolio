@@ -52,7 +52,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building Selenexlabs",
+    title: "Currently building Arqana Labs",
     description: "Solana Foundation",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
